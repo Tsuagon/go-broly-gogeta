@@ -516,7 +516,6 @@ function clerp(c1,c2,al)
 end
 
 ----------------------------------------------------------------------------
-  hed:FindFirstChildOfClass("Decal").Texture = "rbxassetid://2768626754"
 function findAllNearestTorso(pos,dist)
     local list = game.Workspace:children()
     local torso = {}
@@ -2204,8 +2203,6 @@ coroutine.resume(coroutine.create(function()
 	wait(10)
 	
 Aura2.Rate = 0
-
-						hed:FindFirstChildOfClass("Decal").Texture = "rbxassetid://2328556691"
 			char.Shirt.ShirtTemplate = "rbxassetid://2772657733"
 char.Pants.PantsTemplate = "rbxassetid://2772658285"
 Hat2.TextureId = "rbxassetid://2784303920"
@@ -2420,7 +2417,6 @@ wait(2)
 				end
 			end
 			wait(0.1)
-						hed:FindFirstChildOfClass("Decal").Texture = "rbxassetid://2768627415"
 			char.Shirt.ShirtTemplate = "rbxassetid://2772657733"
 char.Pants.PantsTemplate = "rbxassetid://2772658285"
 Hat2.TextureId = "rbxassetid://2788611697"
@@ -2533,8 +2529,6 @@ end
 end
 
 
-
-						hed:FindFirstChildOfClass("Decal").Texture = "rbxassetid://2768626754"
 			char.Shirt.ShirtTemplate = "rbxassetid://2772657733"
 char.Pants.PantsTemplate = "rbxassetid://2772658285"
 Hat2.TextureId = "rbxassetid://2600483032"
