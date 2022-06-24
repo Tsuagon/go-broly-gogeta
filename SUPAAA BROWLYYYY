@@ -3006,8 +3006,8 @@ if k == "g" and MUI == false then
 		Charge.SoundId = "rbxassetid://1370232812"
 		Charge.Pitch = 1
 		Charge.Looped = false
-		Charge.Volume = 5
-				wait(0.0001)
+		Charge.Volume = 1
+		wait(0.0001)
 		Charge:Play()	
 
 	
