@@ -4037,11 +4037,11 @@ torsoY2 = -(torso.Velocity*Vector3.new(1, 0, 1)).magnitude/36
 if attack == true and running == false then
 hum.WalkSpeed = 1
 elseif attack == false and running == false then
-hum.WalkSpeed = 8
+hum.WalkSpeed = 16
 elseif attack == true and running == true then
-hum.WalkSpeed = 15
+hum.WalkSpeed = 14
 elseif attack == false and running == true then
-hum.WalkSpeed = 52
+hum.WalkSpeed = 80
 elseif attack2 == true then
 hum.WalkSpeed = 0
 end
