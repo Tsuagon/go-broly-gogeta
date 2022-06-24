@@ -179,8 +179,18 @@ hum:SetStateEnabled("Dead",false)
 hum:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
 ---
 for i,v in pairs(char:children()) do
-    if v.Name == "Handle" then
-        v.Parent = nil
+    if v:IsA("Hat") then
+        v:Destroy()
+    end
+end
+for i,v in pairs(char:children()) do
+    if v:IsA("Accessory") then
+        v:Destroy()
+    end
+end
+for i,v in pairs(char:children()) do
+    if v:IsA("Hair") then
+        v:Destroy()
     end
 end
 
