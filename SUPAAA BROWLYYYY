@@ -3013,10 +3013,10 @@ if k == "g" and MUI == false then
 	no_anim = true
 	
 	local Charge = Instance.new("Sound",hed)
-		Charge.SoundId = "rbxassetid://984881458"
+		Charge.SoundId = "rbxassetid://1370232812"
 		Charge.Pitch = 1
 		Charge.Looped = false
-		Charge.Volume = 10
+		Charge.Volume = 5
 				wait(0.0001)
 		Charge:Play()	
 
